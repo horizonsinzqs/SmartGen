@@ -1,0 +1,969 @@
+{
+    "AirConditioner:setAirConditionerMode": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:switch off",
+                "count": 1
+            }
+        ]
+    },
+    "AirConditioner:switch off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "AirConditioner:switch on",
+                "count": 1
+            },
+            {
+                "next_action": "AirConditioner:switch off",
+                "count": 1
+            },
+            {
+                "next_action": "Computer:switch off",
+                "count": 1
+            },
+            {
+                "next_action": "AirConditioner:setAirConditionerMode",
+                "count": 1
+            }
+        ]
+    },
+    "AirConditioner:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "AirPurifier:switch on",
+                "count": 2
+            },
+            {
+                "next_action": "AirConditioner:switch off",
+                "count": 1
+            },
+            {
+                "next_action": "AirConditioner:switch on",
+                "count": 1
+            },
+            {
+                "next_action": "Dishwasher:setStop",
+                "count": 1
+            },
+            {
+                "next_action": "RobotCleaner:setRobotCleanerCleaningMode stop",
+                "count": 1
+            }
+        ]
+    },
+    "AirConditioner:temperatureUp": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "AirConditioner:switch on",
+                "count": 2
+            }
+        ]
+    },
+    "AirPurifier:notification": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Dryer:notification",
+                "count": 10
+            },
+            {
+                "next_action": "Refrigerator:setCoolTemperature",
+                "count": 8
+            },
+            {
+                "next_action": "AirPurifier:notification",
+                "count": 5
+            },
+            {
+                "next_action": "Dryer:switch on",
+                "count": 3
+            },
+            {
+                "next_action": "ClothingCareMachine:dryerOperatingState setMachineState run",
+                "count": 3
+            }
+        ]
+    },
+    "AirPurifier:setAirPurifierMode": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "AirPurifier:setAirPurifierMode",
+                "count": 1
+            },
+            {
+                "next_action": "Projector:switch on",
+                "count": 1
+            }
+        ]
+    },
+    "AirPurifier:switch off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "RobotCleaner:setRobotCleanerMovement cleaning",
+                "count": 23
+            },
+            {
+                "next_action": "SmartPlug:switch on",
+                "count": 10
+            },
+            {
+                "next_action": "Dryer:notification",
+                "count": 6
+            },
+            {
+                "next_action": "AirPurifier:notification",
+                "count": 5
+            },
+            {
+                "next_action": "NetworkAudio:audioMute mute",
+                "count": 4
+            }
+        ]
+    },
+    "AirPurifier:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "AirPurifier:notification",
+                "count": 1
+            },
+            {
+                "next_action": "AirPurifier:switch off",
+                "count": 1
+            }
+        ]
+    },
+    "Camera:notification": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Dryer:switch on",
+                "count": 66
+            },
+            {
+                "next_action": "NetworkAudio:audioMute mute",
+                "count": 28
+            },
+            {
+                "next_action": "RobotCleaner:setRobotCleanerMovement charging",
+                "count": 19
+            },
+            {
+                "next_action": "Switch:switch off",
+                "count": 14
+            },
+            {
+                "next_action": "SmartPlug:switch on",
+                "count": 10
+            }
+        ]
+    },
+    "ClothingCareMachine:dryerOperatingState setMachineState run": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "NetworkAudio:mediaPlayback play",
+                "count": 8
+            },
+            {
+                "next_action": "NetworkAudio:audioVolume setVolume",
+                "count": 5
+            },
+            {
+                "next_action": "ClothingCareMachine:dryerOperatingState setMachineState run",
+                "count": 3
+            },
+            {
+                "next_action": "Dishwasher:setStop",
+                "count": 3
+            },
+            {
+                "next_action": "Refrigerator:setCoolTemperature",
+                "count": 2
+            }
+        ]
+    },
+    "Computer:switch off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Projector:switch off",
+                "count": 1
+            }
+        ]
+    },
+    "Computer:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Computer:switch off",
+                "count": 2
+            }
+        ]
+    },
+    "Dishwasher:setStop": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "ClothingCareMachine:dryerOperatingState setMachineState run",
+                "count": 11
+            },
+            {
+                "next_action": "Dryer:switch on",
+                "count": 3
+            },
+            {
+                "next_action": "NetworkAudio:mediaPlayback play",
+                "count": 2
+            },
+            {
+                "next_action": "Dishwasher:start",
+                "count": 1
+            },
+            {
+                "next_action": "Dishwasher:setStop",
+                "count": 1
+            }
+        ]
+    },
+    "Dishwasher:start": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Dryer:dryerOperatingState setMachineState run": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Dryer:notification",
+                "count": 1
+            }
+        ]
+    },
+    "Dryer:notification": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "AirPurifier:switch off",
+                "count": 8
+            },
+            {
+                "next_action": "AirPurifier:notification",
+                "count": 7
+            },
+            {
+                "next_action": "RobotCleaner:setRobotCleanerMovement charging",
+                "count": 6
+            },
+            {
+                "next_action": "Camera:notification",
+                "count": 5
+            },
+            {
+                "next_action": "Refrigerator:setCoolTemperature",
+                "count": 4
+            }
+        ]
+    },
+    "Dryer:switch off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:switch off",
+                "count": 1
+            }
+        ]
+    },
+    "Dryer:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Camera:notification",
+                "count": 72
+            },
+            {
+                "next_action": "NetworkAudio:audioMute mute",
+                "count": 23
+            },
+            {
+                "next_action": "RobotCleaner:setRobotCleanerMovement charging",
+                "count": 8
+            },
+            {
+                "next_action": "Switch:switch off",
+                "count": 6
+            },
+            {
+                "next_action": "SmartPlug:switch on",
+                "count": 5
+            }
+        ]
+    },
+    "Fan:switch off": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Fan:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:switch off",
+                "count": 3
+            },
+            {
+                "next_action": "Other:switch on",
+                "count": 2
+            },
+            {
+                "next_action": "Fan:switch off",
+                "count": 1
+            }
+        ]
+    },
+    "GarageDoor:doorControl open": {
+        "message": "It is usually not followed by the next action."
+    },
+    "GarageDoor:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "SmartLock:switch on",
+                "count": 3
+            }
+        ]
+    },
+    "Humidifier:switch on": {
+        "message": "It is usually not followed by the next action."
+    },
+    "NetworkAudio:audioMute mute": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Camera:notification",
+                "count": 36
+            },
+            {
+                "next_action": "RobotCleaner:setRobotCleanerMovement charging",
+                "count": 24
+            },
+            {
+                "next_action": "Dryer:switch on",
+                "count": 19
+            },
+            {
+                "next_action": "SmartPlug:switch on",
+                "count": 16
+            },
+            {
+                "next_action": "Switch:switch off",
+                "count": 14
+            }
+        ]
+    },
+    "NetworkAudio:audioVolume setVolume": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Dryer:notification",
+                "count": 4
+            },
+            {
+                "next_action": "NetworkAudio:mediaPlayback play",
+                "count": 3
+            },
+            {
+                "next_action": "Television:switch off",
+                "count": 3
+            },
+            {
+                "next_action": "ClothingCareMachine:dryerOperatingState setMachineState run",
+                "count": 2
+            },
+            {
+                "next_action": "RobotCleaner:setRobotCleanerMovement charging",
+                "count": 2
+            }
+        ]
+    },
+    "NetworkAudio:mediaPlayback play": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:setChannel",
+                "count": 7
+            },
+            {
+                "next_action": "Television:switch off",
+                "count": 5
+            },
+            {
+                "next_action": "Dishwasher:setStop",
+                "count": 4
+            },
+            {
+                "next_action": "NetworkAudio:mediaPlayback play",
+                "count": 3
+            },
+            {
+                "next_action": "Dryer:notification",
+                "count": 2
+            }
+        ]
+    },
+    "NetworkAudio:switch off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "NetworkAudio:audioMute mute",
+                "count": 1
+            }
+        ]
+    },
+    "NetworkAudio:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:switch on",
+                "count": 1
+            }
+        ]
+    },
+    "None:location": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "None:location",
+                "count": 17
+            },
+            {
+                "next_action": "RobotCleaner:setting",
+                "count": 2
+            },
+            {
+                "next_action": "SmartLock:lock lock",
+                "count": 1
+            },
+            {
+                "next_action": "Other:switch on",
+                "count": 1
+            },
+            {
+                "next_action": "Other:switch off",
+                "count": 1
+            }
+        ]
+    },
+    "Other:custom.soundmode setSoundMode": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Other:notification": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:switch off",
+                "count": 3
+            }
+        ]
+    },
+    "Other:samsungvd.mediaInputSource setInputSource": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Other:switch off",
+                "count": 1
+            }
+        ]
+    },
+    "Other:switch off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Other:switch off",
+                "count": 3
+            },
+            {
+                "next_action": "Fan:switch on",
+                "count": 3
+            },
+            {
+                "next_action": "Switch:switch off",
+                "count": 3
+            },
+            {
+                "next_action": "Television:switch off",
+                "count": 2
+            },
+            {
+                "next_action": "Washer:washerOperatingState setMachineState stop",
+                "count": 2
+            }
+        ]
+    },
+    "Other:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Other:switch off",
+                "count": 18
+            },
+            {
+                "next_action": "None:location",
+                "count": 2
+            },
+            {
+                "next_action": "Washer:washerOperatingState setMachineState stop",
+                "count": 1
+            }
+        ]
+    },
+    "Other:thermostatCoolingSetpoint setCoolingSetpoint": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:setChannel",
+                "count": 1
+            }
+        ]
+    },
+    "Projector:switch off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "AirPurifier:setAirPurifierMode",
+                "count": 1
+            }
+        ]
+    },
+    "Projector:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Computer:switch off",
+                "count": 1
+            }
+        ]
+    },
+    "Refrigerator:samsungce.powerCool activate": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:switch off",
+                "count": 1
+            }
+        ]
+    },
+    "Refrigerator:setCoolTemperature": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "SmartPlug:switch on",
+                "count": 9
+            },
+            {
+                "next_action": "AirPurifier:notification",
+                "count": 7
+            },
+            {
+                "next_action": "Dryer:notification",
+                "count": 4
+            },
+            {
+                "next_action": "Dryer:switch on",
+                "count": 3
+            },
+            {
+                "next_action": "AirPurifier:switch off",
+                "count": 3
+            }
+        ]
+    },
+    "Refrigerator:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:switch off",
+                "count": 1
+            }
+        ]
+    },
+    "RobotCleaner:notification": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "RobotCleaner:setting",
+                "count": 3
+            }
+        ]
+    },
+    "RobotCleaner:setRobotCleanerCleaningMode stop": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Humidifier:switch on",
+                "count": 1
+            }
+        ]
+    },
+    "RobotCleaner:setRobotCleanerMovement charging": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "NetworkAudio:audioMute mute",
+                "count": 31
+            },
+            {
+                "next_action": "Switch:switch off",
+                "count": 23
+            },
+            {
+                "next_action": "SmartPlug:switch on",
+                "count": 16
+            },
+            {
+                "next_action": "Camera:notification",
+                "count": 13
+            },
+            {
+                "next_action": "Dryer:switch on",
+                "count": 10
+            }
+        ]
+    },
+    "RobotCleaner:setRobotCleanerMovement cleaning": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "AirPurifier:switch off",
+                "count": 19
+            },
+            {
+                "next_action": "RobotCleaner:setRobotCleanerMovement charging",
+                "count": 10
+            },
+            {
+                "next_action": "SmartPlug:switch on",
+                "count": 9
+            },
+            {
+                "next_action": "Dryer:notification",
+                "count": 7
+            },
+            {
+                "next_action": "Switch:switch off",
+                "count": 7
+            }
+        ]
+    },
+    "RobotCleaner:setRobotCleanerMovement homing": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Refrigerator:switch on",
+                "count": 2
+            },
+            {
+                "next_action": "Television:switch off",
+                "count": 1
+            }
+        ]
+    },
+    "RobotCleaner:setting": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "RobotCleaner:notification",
+                "count": 3
+            },
+            {
+                "next_action": "RobotCleaner:setRobotCleanerMovement charging",
+                "count": 2
+            }
+        ]
+    },
+    "SmartLock:alarm off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "SmartLock:switch on",
+                "count": 1
+            }
+        ]
+    },
+    "SmartLock:lock lock": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "SmartLock:switch on",
+                "count": 4
+            },
+            {
+                "next_action": "None:location",
+                "count": 1
+            },
+            {
+                "next_action": "Television:switch off",
+                "count": 1
+            }
+        ]
+    },
+    "SmartLock:switch off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "SmartPlug:switch off",
+                "count": 3
+            }
+        ]
+    },
+    "SmartLock:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "SmartLock:lock lock",
+                "count": 2
+            },
+            {
+                "next_action": "GarageDoor:switch on",
+                "count": 2
+            },
+            {
+                "next_action": "SmartLock:switch on",
+                "count": 1
+            },
+            {
+                "next_action": "SmartLock:alarm off",
+                "count": 1
+            }
+        ]
+    },
+    "SmartPlug:switch off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:switch off",
+                "count": 4
+            }
+        ]
+    },
+    "SmartPlug:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Switch:switch off",
+                "count": 33
+            },
+            {
+                "next_action": "AirPurifier:switch off",
+                "count": 15
+            },
+            {
+                "next_action": "RobotCleaner:setRobotCleanerMovement cleaning",
+                "count": 12
+            },
+            {
+                "next_action": "NetworkAudio:audioMute mute",
+                "count": 12
+            },
+            {
+                "next_action": "SmartPlug:switch off",
+                "count": 11
+            }
+        ]
+    },
+    "Switch:switch off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "SmartPlug:switch on",
+                "count": 25
+            },
+            {
+                "next_action": "RobotCleaner:setRobotCleanerMovement charging",
+                "count": 23
+            },
+            {
+                "next_action": "Camera:notification",
+                "count": 14
+            },
+            {
+                "next_action": "NetworkAudio:audioMute mute",
+                "count": 11
+            },
+            {
+                "next_action": "RobotCleaner:setRobotCleanerMovement cleaning",
+                "count": 10
+            }
+        ]
+    },
+    "Television:audioMute unmute": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:switch off",
+                "count": 7
+            },
+            {
+                "next_action": "Television:volumeDown",
+                "count": 4
+            },
+            {
+                "next_action": "Television:audioMute unmute",
+                "count": 3
+            },
+            {
+                "next_action": "Television:setChannel",
+                "count": 3
+            },
+            {
+                "next_action": "Television:switch on",
+                "count": 2
+            }
+        ]
+    },
+    "Television:setAmbientOn": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Television:setChannel": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:switch off",
+                "count": 25
+            },
+            {
+                "next_action": "Television:setChannel",
+                "count": 14
+            },
+            {
+                "next_action": "NetworkAudio:audioVolume setVolume",
+                "count": 7
+            },
+            {
+                "next_action": "NetworkAudio:mediaPlayback play",
+                "count": 5
+            },
+            {
+                "next_action": "Television:volumeDown",
+                "count": 4
+            }
+        ]
+    },
+    "Television:setInputSource": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:switch off",
+                "count": 10
+            },
+            {
+                "next_action": "Television:setInputSource",
+                "count": 6
+            },
+            {
+                "next_action": "Television:volumeDown",
+                "count": 6
+            },
+            {
+                "next_action": "Television:setChannel",
+                "count": 4
+            },
+            {
+                "next_action": "Television:audioMute unmute",
+                "count": 2
+            }
+        ]
+    },
+    "Television:setPictureMode": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Television:switch off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:switch on",
+                "count": 139
+            },
+            {
+                "next_action": "Television:switch off",
+                "count": 73
+            },
+            {
+                "next_action": "None:location",
+                "count": 11
+            },
+            {
+                "next_action": "Television:setChannel",
+                "count": 4
+            },
+            {
+                "next_action": "Dishwasher:setStop",
+                "count": 4
+            }
+        ]
+    },
+    "Television:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:switch off",
+                "count": 202
+            },
+            {
+                "next_action": "Television:switch on",
+                "count": 41
+            },
+            {
+                "next_action": "Television:audioMute unmute",
+                "count": 5
+            },
+            {
+                "next_action": "Television:setChannel",
+                "count": 5
+            },
+            {
+                "next_action": "Television:setInputSource",
+                "count": 4
+            }
+        ]
+    },
+    "Television:volumeDown": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:switch off",
+                "count": 20
+            },
+            {
+                "next_action": "Television:volumeDown",
+                "count": 7
+            },
+            {
+                "next_action": "Television:setChannel",
+                "count": 4
+            },
+            {
+                "next_action": "Television:switch on",
+                "count": 3
+            },
+            {
+                "next_action": "Television:audioMute unmute",
+                "count": 2
+            }
+        ]
+    },
+    "Washer:washerOperatingState setMachineState run": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Washer:washerOperatingState setMachineState stop": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Other:switch off",
+                "count": 1
+            }
+        ]
+    }
+}

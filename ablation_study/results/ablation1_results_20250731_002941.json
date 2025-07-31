@@ -1,0 +1,57 @@
+[
+  {
+    "module": "without_all",
+    "LLM type": "Llama_70B",
+    "task1": "anomaly_detection",
+    "recall": 0.21212121212121213,
+    "precision": 0.275,
+    "F1 score": 0.23950233281493002,
+    "task2": "behavior_prediction",
+    "HR@10": 0.14580467675378267,
+    "NDCG@10": 0.07736560168858589
+  },
+  {
+    "module": "without_SSC",
+    "LLM type": "Llama_70B",
+    "task1": "anomaly_detection",
+    "recall": 0.17355371900826447,
+    "precision": 0.45652173913043476,
+    "F1 score": 0.25149700598802394,
+    "task2": "behavior_prediction",
+    "HR@10": 0.9298486932599724,
+    "NDCG@10": 0.4818503554766805
+  },
+  {
+    "module": "without_TSS",
+    "LLM type": "Llama_70B",
+    "task1": "anomaly_detection",
+    "recall": 0.35537190082644626,
+    "precision": 0.6323529411764706,
+    "F1 score": 0.45502645502645506,
+    "task2": "behavior_prediction",
+    "HR@10": 0.6258596973865199,
+    "NDCG@10": 0.31611755161800315
+  },
+  {
+    "module": "without_GSS",
+    "LLM type": "Llama_70B",
+    "task1": "anomaly_detection",
+    "recall": 1.0,
+    "precision": 0.778969957081545,
+    "F1 score": 0.8757539203860072,
+    "task2": "behavior_prediction",
+    "HR@10": 0.2297111416781293,
+    "NDCG@10": 0.15225771394555793
+  },
+  {
+    "module": "all",
+    "LLM type": "Llama_70B",
+    "task1": "anomaly_detection",
+    "recall": 1.0,
+    "precision": 0.7995594713656388,
+    "F1 score": 0.8886168910648714,
+    "task2": "behavior_prediction",
+    "HR@10": 0.9477303988995873,
+    "NDCG@10": 0.6520548890646454
+  }
+]

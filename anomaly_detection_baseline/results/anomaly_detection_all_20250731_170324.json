@@ -1,0 +1,695 @@
+[
+    {
+        "LocalOutlierFactor": {
+            "dataset": "fr",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.05405405405405406,
+            "precision": 0.07692307692307693,
+            "f1_score": 0.06349206349206349,
+            "model": "LocalOutlierFactor"
+        }
+    },
+    {
+        "LocalOutlierFactor": {
+            "dataset": "sp",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.1863270777479893,
+            "precision": 0.36772486772486773,
+            "f1_score": 0.24733096085409254,
+            "model": "LocalOutlierFactor"
+        }
+    },
+    {
+        "LocalOutlierFactor": {
+            "dataset": "us",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.1859344894026975,
+            "precision": 0.4457274826789838,
+            "f1_score": 0.26240652617267163,
+            "model": "LocalOutlierFactor"
+        }
+    },
+    {
+        "IsolationForest": {
+            "dataset": "fr",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.8558558558558559,
+            "precision": 0.3877551020408163,
+            "f1_score": 0.5337078651685393,
+            "model": "IsolationForest"
+        }
+    },
+    {
+        "IsolationForest": {
+            "dataset": "sp",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.6072386058981233,
+            "precision": 0.38260135135135137,
+            "f1_score": 0.4694300518134715,
+            "model": "IsolationForest"
+        }
+    },
+    {
+        "IsolationForest": {
+            "dataset": "us",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.5282594733461785,
+            "precision": 0.43796592119275823,
+            "f1_score": 0.47889374090247455,
+            "model": "IsolationForest"
+        }
+    },
+    {
+        "MC": {
+            "dataset": "fr",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.3063063063063063,
+            "precision": 0.14225941422594143,
+            "f1_score": 0.19428571428571428,
+            "model": "MC"
+        }
+    },
+    {
+        "MC": {
+            "dataset": "sp",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.4436997319034853,
+            "precision": 0.31765834932821496,
+            "f1_score": 0.37024608501118567,
+            "model": "MC"
+        }
+    },
+    {
+        "MC": {
+            "dataset": "us",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.12491971740526654,
+            "precision": 0.41339001062699254,
+            "f1_score": 0.19186189889025895,
+            "model": "MC"
+        }
+    },
+    {
+        "OCSVM": {
+            "dataset": "fr",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.4144144144144144,
+            "precision": 0.3129251700680272,
+            "f1_score": 0.35658914728682173,
+            "model": "OCSVM"
+        }
+    },
+    {
+        "OCSVM": {
+            "dataset": "sp",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.4410187667560322,
+            "precision": 0.3978234582829504,
+            "f1_score": 0.41830896376350923,
+            "model": "OCSVM"
+        }
+    },
+    {
+        "OCSVM": {
+            "dataset": "us",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.7671804752729608,
+            "precision": 0.5089475926714955,
+            "f1_score": 0.6119364754098361,
+            "model": "OCSVM"
+        }
+    },
+    {
+        "Autoencoder": {
+            "dataset": "fr",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.990990990990991,
+            "precision": 0.497737556561086,
+            "f1_score": 0.6626506024096386,
+            "model": "Autoencoder"
+        }
+    },
+    {
+        "Autoencoder": {
+            "dataset": "sp",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.9879356568364611,
+            "precision": 0.49696561024949426,
+            "f1_score": 0.661283086585913,
+            "model": "Autoencoder"
+        }
+    },
+    {
+        "Autoencoder": {
+            "dataset": "us",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.98747591522158,
+            "precision": 0.4968492486669898,
+            "f1_score": 0.6610770719122864,
+            "model": "Autoencoder"
+        }
+    },
+    {
+        "GRUAutoencoder": {
+            "dataset": "fr",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.9279279279279279,
+            "precision": 0.49282296650717705,
+            "f1_score": 0.64375,
+            "model": "GRUAutoencoder"
+        }
+    },
+    {
+        "GRUAutoencoder": {
+            "dataset": "sp",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.938337801608579,
+            "precision": 0.4961020552799433,
+            "f1_score": 0.6490496059341678,
+            "model": "GRUAutoencoder"
+        }
+    },
+    {
+        "GRUAutoencoder": {
+            "dataset": "us",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.7797045600513809,
+            "precision": 0.4881383192601528,
+            "f1_score": 0.6003956478733927,
+            "model": "GRUAutoencoder"
+        }
+    },
+    {
+        "TransformerAutoencoder": {
+            "dataset": "fr",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 1.0,
+            "precision": 0.5,
+            "f1_score": 0.6666666666666666,
+            "model": "TransformerAutoencoder"
+        }
+    },
+    {
+        "TransformerAutoencoder": {
+            "dataset": "sp",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.9865951742627346,
+            "precision": 0.4966261808367072,
+            "f1_score": 0.6606822262118492,
+            "model": "TransformerAutoencoder"
+        }
+    },
+    {
+        "TransformerAutoencoder": {
+            "dataset": "us",
+            "env": "winter",
+            "type": "spring_attack_heater",
+            "recall": 0.98747591522158,
+            "precision": 0.4968492486669898,
+            "f1_score": 0.6610770719122864,
+            "model": "TransformerAutoencoder"
+        }
+    },
+    {
+        "LocalOutlierFactor": {
+            "dataset": "fr",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.19844357976653695,
+            "precision": 0.45535714285714285,
+            "f1_score": 0.2764227642276423,
+            "model": "LocalOutlierFactor"
+        }
+    },
+    {
+        "LocalOutlierFactor": {
+            "dataset": "sp",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.22727272727272727,
+            "precision": 0.47413793103448276,
+            "f1_score": 0.30726256983240224,
+            "model": "LocalOutlierFactor"
+        }
+    },
+    {
+        "LocalOutlierFactor": {
+            "dataset": "us",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.15993537964458804,
+            "precision": 0.3326612903225806,
+            "f1_score": 0.21601571023347152,
+            "model": "LocalOutlierFactor"
+        }
+    },
+    {
+        "IsolationForest": {
+            "dataset": "fr",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.377431906614786,
+            "precision": 0.31290322580645163,
+            "f1_score": 0.3421516754850088,
+            "model": "IsolationForest"
+        }
+    },
+    {
+        "IsolationForest": {
+            "dataset": "sp",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.3760330578512397,
+            "precision": 0.37916666666666665,
+            "f1_score": 0.3775933609958506,
+            "model": "IsolationForest"
+        }
+    },
+    {
+        "IsolationForest": {
+            "dataset": "us",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.2875605815831987,
+            "precision": 0.2575976845151954,
+            "f1_score": 0.2717557251908397,
+            "model": "IsolationForest"
+        }
+    },
+    {
+        "MC": {
+            "dataset": "fr",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.17509727626459143,
+            "precision": 0.5056179775280899,
+            "f1_score": 0.26011560693641617,
+            "model": "MC"
+        }
+    },
+    {
+        "MC": {
+            "dataset": "sp",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.4256198347107438,
+            "precision": 0.5255102040816326,
+            "f1_score": 0.4703196347031963,
+            "model": "MC"
+        }
+    },
+    {
+        "MC": {
+            "dataset": "us",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.5059773828756058,
+            "precision": 0.5594855305466238,
+            "f1_score": 0.5313878520529352,
+            "model": "MC"
+        }
+    },
+    {
+        "OCSVM": {
+            "dataset": "fr",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.5330739299610895,
+            "precision": 0.5169811320754717,
+            "f1_score": 0.524904214559387,
+            "model": "OCSVM"
+        }
+    },
+    {
+        "OCSVM": {
+            "dataset": "sp",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.5743801652892562,
+            "precision": 0.41124260355029585,
+            "f1_score": 0.4793103448275862,
+            "model": "OCSVM"
+        }
+    },
+    {
+        "OCSVM": {
+            "dataset": "us",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.5105008077544426,
+            "precision": 0.4221212930804168,
+            "f1_score": 0.46212342790289557,
+            "model": "OCSVM"
+        }
+    },
+    {
+        "Autoencoder": {
+            "dataset": "fr",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.47470817120622566,
+            "precision": 0.32189973614775724,
+            "f1_score": 0.3836477987421384,
+            "model": "Autoencoder"
+        }
+    },
+    {
+        "Autoencoder": {
+            "dataset": "sp",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 1.0,
+            "precision": 0.5,
+            "f1_score": 0.6666666666666666,
+            "model": "Autoencoder"
+        }
+    },
+    {
+        "Autoencoder": {
+            "dataset": "us",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.0,
+            "precision": 0.0,
+            "f1_score": 0.0,
+            "model": "Autoencoder"
+        }
+    },
+    {
+        "GRUAutoencoder": {
+            "dataset": "fr",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.019455252918287938,
+            "precision": 0.019083969465648856,
+            "f1_score": 0.019267822736030827,
+            "model": "GRUAutoencoder"
+        }
+    },
+    {
+        "GRUAutoencoder": {
+            "dataset": "sp",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.29338842975206614,
+            "precision": 0.2268370607028754,
+            "f1_score": 0.25585585585585585,
+            "model": "GRUAutoencoder"
+        }
+    },
+    {
+        "GRUAutoencoder": {
+            "dataset": "us",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.024232633279483037,
+            "precision": 0.02365930599369085,
+            "f1_score": 0.023942537909018357,
+            "model": "GRUAutoencoder"
+        }
+    },
+    {
+        "TransformerAutoencoder": {
+            "dataset": "fr",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.38910505836575876,
+            "precision": 0.2801120448179272,
+            "f1_score": 0.3257328990228013,
+            "model": "TransformerAutoencoder"
+        }
+    },
+    {
+        "TransformerAutoencoder": {
+            "dataset": "sp",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.06611570247933884,
+            "precision": 0.06201550387596899,
+            "f1_score": 0.064,
+            "model": "TransformerAutoencoder"
+        }
+    },
+    {
+        "TransformerAutoencoder": {
+            "dataset": "us",
+            "env": "daytime",
+            "type": "night_attack_time",
+            "recall": 0.017770597738287562,
+            "precision": 0.01746031746031746,
+            "f1_score": 0.017614091273018415,
+            "model": "TransformerAutoencoder"
+        }
+    },
+    {
+        "LocalOutlierFactor": {
+            "dataset": "fr",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.0859538784067086,
+            "precision": 0.10353535353535354,
+            "f1_score": 0.09392898052691867,
+            "model": "LocalOutlierFactor"
+        }
+    },
+    {
+        "LocalOutlierFactor": {
+            "dataset": "sp",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.064,
+            "precision": 0.08163265306122448,
+            "f1_score": 0.07174887892376682,
+            "model": "LocalOutlierFactor"
+        }
+    },
+    {
+        "LocalOutlierFactor": {
+            "dataset": "us",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.152,
+            "precision": 0.20212765957446807,
+            "f1_score": 0.1735159817351598,
+            "model": "LocalOutlierFactor"
+        }
+    },
+    {
+        "IsolationForest": {
+            "dataset": "fr",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.2557651991614256,
+            "precision": 0.17994100294985252,
+            "f1_score": 0.21125541125541125,
+            "model": "IsolationForest"
+        }
+    },
+    {
+        "IsolationForest": {
+            "dataset": "sp",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.156,
+            "precision": 0.12037037037037036,
+            "f1_score": 0.13588850174216027,
+            "model": "IsolationForest"
+        }
+    },
+    {
+        "IsolationForest": {
+            "dataset": "us",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.185,
+            "precision": 0.14464425332290853,
+            "f1_score": 0.16235190873189995,
+            "model": "IsolationForest"
+        }
+    },
+    {
+        "MC": {
+            "dataset": "fr",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.0,
+            "precision": 0.0,
+            "f1_score": 0.0,
+            "model": "MC"
+        }
+    },
+    {
+        "MC": {
+            "dataset": "sp",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.0,
+            "precision": 0.0,
+            "f1_score": 0.0,
+            "model": "MC"
+        }
+    },
+    {
+        "MC": {
+            "dataset": "us",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.483,
+            "precision": 0.18677494199535963,
+            "f1_score": 0.2693809258226436,
+            "model": "MC"
+        }
+    },
+    {
+        "OCSVM": {
+            "dataset": "fr",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.42557651991614254,
+            "precision": 0.17964601769911503,
+            "f1_score": 0.2526446795270691,
+            "model": "OCSVM"
+        }
+    },
+    {
+        "OCSVM": {
+            "dataset": "sp",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.58,
+            "precision": 0.25618374558303886,
+            "f1_score": 0.3553921568627451,
+            "model": "OCSVM"
+        }
+    },
+    {
+        "OCSVM": {
+            "dataset": "us",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.799,
+            "precision": 0.2705722993565865,
+            "f1_score": 0.4042499367568935,
+            "model": "OCSVM"
+        }
+    },
+    {
+        "Autoencoder": {
+            "dataset": "fr",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.9538784067085954,
+            "precision": 0.489247311827957,
+            "f1_score": 0.6467661691542289,
+            "model": "Autoencoder"
+        }
+    },
+    {
+        "Autoencoder": {
+            "dataset": "sp",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.524,
+            "precision": 0.4532871972318339,
+            "f1_score": 0.48608534322820035,
+            "model": "Autoencoder"
+        }
+    },
+    {
+        "Autoencoder": {
+            "dataset": "us",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.944,
+            "precision": 0.48559670781893005,
+            "f1_score": 0.6413043478260869,
+            "model": "Autoencoder"
+        }
+    },
+    {
+        "GRUAutoencoder": {
+            "dataset": "fr",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.9937106918238994,
+            "precision": 0.49842271293375395,
+            "f1_score": 0.6638655462184874,
+            "model": "GRUAutoencoder"
+        }
+    },
+    {
+        "GRUAutoencoder": {
+            "dataset": "sp",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.988,
+            "precision": 0.4969818913480885,
+            "f1_score": 0.6613119143239625,
+            "model": "GRUAutoencoder"
+        }
+    },
+    {
+        "GRUAutoencoder": {
+            "dataset": "us",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.997,
+            "precision": 0.4992488733099649,
+            "f1_score": 0.665331998665332,
+            "model": "GRUAutoencoder"
+        }
+    },
+    {
+        "TransformerAutoencoder": {
+            "dataset": "fr",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.9685534591194969,
+            "precision": 0.49201277955271566,
+            "f1_score": 0.652542372881356,
+            "model": "TransformerAutoencoder"
+        }
+    },
+    {
+        "TransformerAutoencoder": {
+            "dataset": "sp",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.94,
+            "precision": 0.4942166140904311,
+            "f1_score": 0.647829083390765,
+            "model": "TransformerAutoencoder"
+        }
+    },
+    {
+        "TransformerAutoencoder": {
+            "dataset": "us",
+            "env": "single",
+            "type": "multiple_attack_tv",
+            "recall": 0.997,
+            "precision": 0.4992488733099649,
+            "f1_score": 0.665331998665332,
+            "model": "TransformerAutoencoder"
+        }
+    }
+]

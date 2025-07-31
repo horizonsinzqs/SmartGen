@@ -1,0 +1,14 @@
+batch_size,8
+dataset,splitEP2_fr_spring_generation_SPPC_th=0.918_gpt-4o_seq_9_36
+device,cuda
+dropout_rate,0.2
+hidden_units,50
+inference_only,False
+l2_emb,0.0
+lr,0.001
+maxlen,200
+num_blocks,2
+num_epochs,50
+num_heads,1
+state_dict_path,None
+train_dir,default

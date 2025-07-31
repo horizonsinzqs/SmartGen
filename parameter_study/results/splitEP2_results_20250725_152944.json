@@ -1,0 +1,90 @@
+[
+  {
+    "dataset": "fr",
+    "split gap 2": "12",
+    "task1": "anomaly_detection",
+    "recall": 0.6590909090909091,
+    "precision": 0.5858585858585859,
+    "F1 score": 0.6203208556149733,
+    "task2": "behavior_prediction",
+    "HR@10": 0.9425287356321839,
+    "NDCG@10": 0.6152692004118001
+  },
+  {
+    "dataset": "fr",
+    "split gap 2": "24",
+    "task1": "anomaly_detection",
+    "recall": 0.9886363636363636,
+    "precision": 0.7631578947368421,
+    "F1 score": 0.8613861386138614,
+    "task2": "behavior_prediction",
+    "HR@10": 0.9195402298850575,
+    "NDCG@10": 0.567501099628176
+  },
+  {
+    "dataset": "fr",
+    "split gap 2": "36",
+    "task1": "anomaly_detection",
+    "recall": 0.7727272727272727,
+    "precision": 0.8831168831168831,
+    "F1 score": 0.8242424242424242,
+    "task2": "behavior_prediction",
+    "HR@10": 0.9310344827586207,
+    "NDCG@10": 0.5280572329346521
+  },
+  {
+    "dataset": "fr",
+    "split gap 2": "48",
+    "task1": "anomaly_detection",
+    "recall": 1.0,
+    "precision": 0.6821705426356589,
+    "F1 score": 0.8110599078341014,
+    "task2": "behavior_prediction",
+    "HR@10": 0.9425287356321839,
+    "NDCG@10": 0.7161745288578616
+  },
+  {
+    "dataset": "sp",
+    "split gap 2": "12",
+    "task1": "anomaly_detection",
+    "recall": 0.9313186813186813,
+    "precision": 0.853904282115869,
+    "F1 score": 0.8909329829172141,
+    "task2": "behavior_prediction",
+    "HR@10": 0.9752407152682255,
+    "NDCG@10": 0.6365027103508867
+  },
+  {
+    "dataset": "sp",
+    "split gap 2": "24",
+    "task1": "anomaly_detection",
+    "recall": 0.9903846153846154,
+    "precision": 0.8573127229488704,
+    "F1 score": 0.9190567240280433,
+    "task2": "behavior_prediction",
+    "HR@10": 0.9312242090784044,
+    "NDCG@10": 0.6187875567116309
+  },
+  {
+    "dataset": "sp",
+    "split gap 2": "36",
+    "task1": "anomaly_detection",
+    "recall": 1.0,
+    "precision": 0.8666666666666667,
+    "F1 score": 0.9285714285714286,
+    "task2": "behavior_prediction",
+    "HR@10": 0.9408528198074277,
+    "NDCG@10": 0.7075375186184536
+  },
+  {
+    "dataset": "sp",
+    "split gap 2": "48",
+    "task1": "anomaly_detection",
+    "recall": 0.9326923076923077,
+    "precision": 0.8852672750977836,
+    "F1 score": 0.9083612040133778,
+    "task2": "behavior_prediction",
+    "HR@10": 0.9834938101788171,
+    "NDCG@10": 0.6819975995130745
+  }
+]

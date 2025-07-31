@@ -1,0 +1,250 @@
+{
+    "AirConditioner:switch off": {
+        "message": "It is usually not followed by the next action."
+    },
+    "AirConditioner:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "AirConditioner:switch on",
+                "count": 7
+            },
+            {
+                "next_action": "AirConditioner:switch off",
+                "count": 1
+            }
+        ]
+    },
+    "AirPurifier:setAirPurifierMode": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "AirPurifier:setAirPurifierMode",
+                "count": 6
+            }
+        ]
+    },
+    "Blind:windowShade close": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Blind:windowShade open",
+                "count": 1
+            }
+        ]
+    },
+    "Blind:windowShade open": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Blind:windowShade close",
+                "count": 1
+            }
+        ]
+    },
+    "Camera:notification": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Fan:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Fan:switch on",
+                "count": 6
+            }
+        ]
+    },
+    "GarageDoor:doorControl close": {
+        "message": "It is usually not followed by the next action."
+    },
+    "GarageDoor:doorControl open": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "GarageDoor:doorControl open",
+                "count": 3
+            },
+            {
+                "next_action": "GarageDoor:doorControl close",
+                "count": 2
+            }
+        ]
+    },
+    "Light:setLevel": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Light:switch off": {
+        "message": "It is usually not followed by the next action."
+    },
+    "NetworkAudio:audioMute mute": {
+        "message": "It is usually not followed by the next action."
+    },
+    "NetworkAudio:audioVolume setVolume": {
+        "message": "It is usually not followed by the next action."
+    },
+    "NetworkAudio:mediaPlayback play": {
+        "message": "It is usually not followed by the next action."
+    },
+    "NetworkAudio:switch on": {
+        "message": "It is usually not followed by the next action."
+    },
+    "None:location": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "None:location",
+                "count": 663
+            }
+        ]
+    },
+    "Other:custom.soundmode setSoundMode": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Other:notification": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Other:notification",
+                "count": 16
+            }
+        ]
+    },
+    "Other:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Other:switch on",
+                "count": 48
+            }
+        ]
+    },
+    "Projector:custom.soundmode setSoundMode": {
+        "message": "It is usually not followed by the next action."
+    },
+    "RobotCleaner:setRobotCleanerMovement charging": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "RobotCleaner:setting",
+                "count": 6
+            }
+        ]
+    },
+    "RobotCleaner:setRobotCleanerMovement cleaning": {
+        "message": "It is usually not followed by the next action."
+    },
+    "RobotCleaner:setting": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "RobotCleaner:setRobotCleanerMovement charging",
+                "count": 5
+            }
+        ]
+    },
+    "SmartLock:lock lock": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Television:audioMute unmute": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:volumeDown",
+                "count": 12
+            },
+            {
+                "next_action": "Television:switch on",
+                "count": 7
+            },
+            {
+                "next_action": "Television:setChannel",
+                "count": 1
+            },
+            {
+                "next_action": "Television:audioMute unmute",
+                "count": 1
+            }
+        ]
+    },
+    "Television:setChannel": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:setChannel",
+                "count": 61
+            },
+            {
+                "next_action": "Television:audioMute unmute",
+                "count": 7
+            },
+            {
+                "next_action": "Television:volumeDown",
+                "count": 6
+            },
+            {
+                "next_action": "Television:switch on",
+                "count": 6
+            },
+            {
+                "next_action": "Television:setInputSource",
+                "count": 5
+            }
+        ]
+    },
+    "Television:setInputSource": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:setChannel",
+                "count": 7
+            },
+            {
+                "next_action": "Television:setInputSource",
+                "count": 1
+            }
+        ]
+    },
+    "Television:setPictureMode": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:setPictureMode",
+                "count": 7
+            }
+        ]
+    },
+    "Television:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:volumeDown",
+                "count": 7
+            },
+            {
+                "next_action": "Television:audioMute unmute",
+                "count": 7
+            },
+            {
+                "next_action": "Television:setInputSource",
+                "count": 1
+            }
+        ]
+    },
+    "Television:volumeDown": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:volumeDown",
+                "count": 29
+            },
+            {
+                "next_action": "Television:audioMute unmute",
+                "count": 10
+            },
+            {
+                "next_action": "Television:setChannel",
+                "count": 4
+            }
+        ]
+    }
+}

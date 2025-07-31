@@ -1,0 +1,92 @@
+[
+  {
+    "dataset": "fr",
+    "env": "spring",
+    "type1": "ori",
+    "recall": 0.9886363636363636,
+    "precision": 0.7631578947368421,
+    "F1 score": 0.8613861386138614,
+    "type2": "S1",
+    "type3": "S2"
+  },
+  {
+    "dataset": "fr",
+    "env": "night",
+    "type1": "ori",
+    "recall": 1.0,
+    "precision": 0.9416419386745796,
+    "F1 score": 0.9699439633214467,
+    "type2": "S1",
+    "type3": "S2"
+  },
+  {
+    "dataset": "fr",
+    "env": "multiple",
+    "type1": "ori",
+    "recall": 1.0,
+    "precision": 0.8737864077669902,
+    "F1 score": 0.932642487046632,
+    "type2": "S1",
+    "type3": "S2"
+  },
+  {
+    "dataset": "sp",
+    "env": "spring",
+    "type1": "ori",
+    "recall": 0.9903846153846154,
+    "precision": 0.8573127229488704,
+    "F1 score": 0.9190567240280433,
+    "type2": "S1",
+    "type3": "S2"
+  },
+  {
+    "dataset": "sp",
+    "env": "night",
+    "type1": "ori",
+    "recall": 1.0,
+    "precision": 0.9276780859162589,
+    "F1 score": 0.9624823695345558,
+    "type2": "S1",
+    "type3": "S2"
+  },
+  {
+    "dataset": "sp",
+    "env": "multiple",
+    "type1": "ori",
+    "recall": 1.0,
+    "precision": 0.6583333333333333,
+    "F1 score": 0.7939698492462312,
+    "type2": "S1",
+    "type3": "S2"
+  },
+  {
+    "dataset": "us",
+    "env": "spring",
+    "type1": "ori",
+    "recall": 1.0,
+    "precision": 0.8696655132641292,
+    "F1 score": 0.9302899444787168,
+    "type2": "S1",
+    "type3": "S2"
+  },
+  {
+    "dataset": "us",
+    "env": "night",
+    "type1": "ori",
+    "recall": 1.0,
+    "precision": 0.7809417040358745,
+    "F1 score": 0.8769986151328214,
+    "type2": "S1",
+    "type3": "S2"
+  },
+  {
+    "dataset": "us",
+    "env": "multiple",
+    "type1": "ori",
+    "recall": 1.0,
+    "precision": 0.7248701152021685,
+    "F1 score": 0.8404924044002096,
+    "type2": "S1",
+    "type3": "S2"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "dataset": "fr",
+    "environment": "winter",
+    "model": "SASRec_fixed",
+    "HR@10": 0.4482758620689655,
+    "NDCG@10": 0.23934877889961065
+  },
+  {
+    "dataset": "fr",
+    "environment": "daytime",
+    "model": "SASRec_fixed",
+    "HR@10": 0.5205047318611987,
+    "NDCG@10": 0.31299833915603464
+  },
+  {
+    "dataset": "fr",
+    "environment": "single",
+    "model": "SASRec_fixed",
+    "HR@10": 0.2696629213483146,
+    "NDCG@10": 0.18459240550323888
+  },
+  {
+    "dataset": "sp",
+    "environment": "winter",
+    "model": "SASRec_fixed",
+    "HR@10": 0.19257221458046767,
+    "NDCG@10": 0.11833348264852203
+  },
+  {
+    "dataset": "sp",
+    "environment": "daytime",
+    "model": "SASRec_fixed",
+    "HR@10": 0.6527859237536657,
+    "NDCG@10": 0.2722691273180592
+  },
+  {
+    "dataset": "sp",
+    "environment": "single",
+    "model": "SASRec_fixed",
+    "HR@10": 0.46496815286624205,
+    "NDCG@10": 0.2752011269498681
+  },
+  {
+    "dataset": "us",
+    "environment": "winter",
+    "model": "SASRec_fixed",
+    "HR@10": 0.6361525704809287,
+    "NDCG@10": 0.4695900281258642
+  },
+  {
+    "dataset": "us",
+    "environment": "daytime",
+    "model": "SASRec_fixed",
+    "HR@10": 0.6625502584721424,
+    "NDCG@10": 0.5378851629440511
+  },
+  {
+    "dataset": "us",
+    "environment": "single",
+    "model": "SASRec_fixed",
+    "HR@10": 0.8226309226932669,
+    "NDCG@10": 0.6117722316428279
+  }
+]

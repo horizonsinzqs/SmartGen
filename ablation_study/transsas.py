@@ -1,0 +1,79 @@
+import pickle
+
+
+def Transsas_EP(dataset, new_env, threshold, method, model, study):
+    with open(f'study_data/{study}/{dataset}_{new_env}_generation_SPPC_th={threshold}_{model}_seq_filter_true.pkl',
+              'rb') as file2:
+        sequence = pickle.load(file2)
+    actions = sequence
+
+    with open(f'data/{study}_{dataset}_{new_env}_generation_{method}_th={threshold}_{model}_seq.txt', 'w') as file:
+        pass
+
+    for t in range(len(actions)):
+        id_list = t
+        behavior_list = actions[t]
+
+        with open(f'data/{study}_{dataset}_{new_env}_generation_{method}_th={threshold}_{model}_seq.txt', 'a') as file:
+            for i in range(len(behavior_list)):
+                file.write(f"{t} {behavior_list[i]}\n")
+
+    print("Data has been written to file.")
+
+
+def Transsas_ab1(dataset, new_env, threshold, model, study, module):
+    with open(f'study_data/{study}/generation_th={threshold}_{model}_seq_{module}.pkl',
+              'rb') as file2:
+        sequence = pickle.load(file2)
+    actions = sequence
+
+    with open(f'data/{study}_{module}_generation_th={threshold}_{model}_seq.txt', 'w') as file:
+        pass
+
+    for t in range(len(actions)):
+        id_list = t
+        behavior_list = actions[t]
+
+        with open(f'data/{study}_{module}_generation_th={threshold}_{model}_seq.txt', 'a') as file:
+            for i in range(len(behavior_list)):
+                file.write(f"{t} {behavior_list[i]}\n")
+
+    print("Data has been written to file.")
+
+
+def Transsas_test(dataset, new_env):
+    with open(f'test/{dataset}/{new_env}/split_test.pkl', 'rb') as file2:
+        sequence = pickle.load(file2)
+    actions = sequence
+
+    with open(f'data/{dataset}_{new_env}_test.txt', 'w') as file:
+        pass
+
+    for t in range(len(actions)):
+        id_list = t
+        behavior_list = actions[t]
+
+        with open(f'data/{dataset}_{new_env}_test.txt', 'a') as file:
+            for i in range(len(behavior_list)):
+                file.write(f"{t} {behavior_list[i]}\n")
+
+    print("Data has been written to file.")
+
+
+def Transsas_test_ab1(dataset, new_env):
+    with open(f'study_data/ablation1/split_test.pkl', 'rb') as file2:
+        sequence = pickle.load(file2)
+    actions = sequence
+
+    with open(f'data/{dataset}_{new_env}_test.txt', 'w') as file:
+        pass
+
+    for t in range(len(actions)):
+        id_list = t
+        behavior_list = actions[t]
+
+        with open(f'data/{dataset}_{new_env}_test.txt', 'a') as file:
+            for i in range(len(behavior_list)):
+                file.write(f"{t} {behavior_list[i]}\n")
+
+    print("Data has been written to file.")

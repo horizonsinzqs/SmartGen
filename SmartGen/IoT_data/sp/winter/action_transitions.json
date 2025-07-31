@@ -1,0 +1,714 @@
+{
+    "AirPurifier:notification": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Other:notification",
+                "count": 5
+            }
+        ]
+    },
+    "Blind:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Other:switch on",
+                "count": 1
+            }
+        ]
+    },
+    "Blind:windowShade close": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Camera:cameraPreset execute": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Other:notification",
+                "count": 3
+            },
+            {
+                "next_action": "None:location",
+                "count": 1
+            }
+        ]
+    },
+    "Camera:notification": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Camera:switch on": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Computer:notification": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Dryer:dryerOperatingState setMachineState run": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Refrigerator:samsungce.powerCool activate",
+                "count": 42
+            },
+            {
+                "next_action": "Light:setColor",
+                "count": 10
+            },
+            {
+                "next_action": "Dryer:dryerOperatingState setMachineState run",
+                "count": 9
+            },
+            {
+                "next_action": "Heater:switch off",
+                "count": 1
+            }
+        ]
+    },
+    "GarageDoor:doorControl close": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "GarageDoor:doorControl open",
+                "count": 28
+            },
+            {
+                "next_action": "GarageDoor:doorControl close",
+                "count": 5
+            },
+            {
+                "next_action": "SmartLock:alarm off",
+                "count": 3
+            },
+            {
+                "next_action": "Other:notification",
+                "count": 1
+            }
+        ]
+    },
+    "GarageDoor:doorControl open": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "GarageDoor:doorControl open",
+                "count": 116
+            },
+            {
+                "next_action": "GarageDoor:doorControl close",
+                "count": 29
+            },
+            {
+                "next_action": "SmartLock:lock lock",
+                "count": 7
+            }
+        ]
+    },
+    "Light:setColor": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Light:setColor",
+                "count": 264
+            },
+            {
+                "next_action": "Light:setLevel",
+                "count": 55
+            },
+            {
+                "next_action": "Refrigerator:samsungce.powerCool activate",
+                "count": 23
+            },
+            {
+                "next_action": "Dryer:dryerOperatingState setMachineState run",
+                "count": 16
+            },
+            {
+                "next_action": "Light:setColorTemperature",
+                "count": 8
+            }
+        ]
+    },
+    "Light:setColorTemperature": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Light:setLevel": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Light:setLevel",
+                "count": 32
+            },
+            {
+                "next_action": "Television:volumeDown",
+                "count": 5
+            },
+            {
+                "next_action": "Light:setColor",
+                "count": 5
+            },
+            {
+                "next_action": "Light:switch on",
+                "count": 3
+            },
+            {
+                "next_action": "Light:setLightingMode",
+                "count": 3
+            }
+        ]
+    },
+    "Light:setLightingMode": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Light:switch off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Light:switch on",
+                "count": 6
+            }
+        ]
+    },
+    "Light:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:setChannel",
+                "count": 92
+            },
+            {
+                "next_action": "Light:switch on",
+                "count": 75
+            },
+            {
+                "next_action": "None:location",
+                "count": 27
+            },
+            {
+                "next_action": "Light:setColor",
+                "count": 17
+            },
+            {
+                "next_action": "Other:switch on",
+                "count": 6
+            }
+        ]
+    },
+    "NetworkAudio:audioMute mute": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "NetworkAudio:audioVolume setVolume",
+                "count": 1
+            },
+            {
+                "next_action": "NetworkAudio:audioMute mute",
+                "count": 1
+            }
+        ]
+    },
+    "NetworkAudio:audioVolume setVolume": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "NetworkAudio:switch off",
+                "count": 12
+            },
+            {
+                "next_action": "Other:custom.soundmode setSoundMode",
+                "count": 5
+            },
+            {
+                "next_action": "NetworkAudio:audioMute mute",
+                "count": 2
+            }
+        ]
+    },
+    "NetworkAudio:mediaPlayback play": {
+        "message": "It is usually not followed by the next action."
+    },
+    "NetworkAudio:mediaPlayback stop": {
+        "message": "It is usually not followed by the next action."
+    },
+    "NetworkAudio:switch off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "NetworkAudio:audioVolume setVolume",
+                "count": 5
+            },
+            {
+                "next_action": "NetworkAudio:switch off",
+                "count": 1
+            }
+        ]
+    },
+    "NetworkAudio:switch on": {
+        "message": "It is usually not followed by the next action."
+    },
+    "None:location": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "None:location",
+                "count": 564
+            },
+            {
+                "next_action": "Light:switch on",
+                "count": 28
+            },
+            {
+                "next_action": "Other:switch off",
+                "count": 8
+            },
+            {
+                "next_action": "Television:volumeDown",
+                "count": 6
+            },
+            {
+                "next_action": "Other:notification",
+                "count": 5
+            }
+        ]
+    },
+    "Other:airConditionerFanMode setFanMode": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Other:airConditionerFanMode setFanMode",
+                "count": 5
+            },
+            {
+                "next_action": "Other:notification",
+                "count": 5
+            },
+            {
+                "next_action": "Other:robotCleanerTurboMode setRobotCleanerTurboMode",
+                "count": 2
+            }
+        ]
+    },
+    "Other:custom.soundmode setSoundMode": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:volumeDown",
+                "count": 10
+            },
+            {
+                "next_action": "Other:custom.soundmode setSoundMode",
+                "count": 8
+            },
+            {
+                "next_action": "Other:samsungvd.mediaInputSource setInputSource",
+                "count": 5
+            },
+            {
+                "next_action": "Other:switch on",
+                "count": 4
+            },
+            {
+                "next_action": "NetworkAudio:audioVolume setVolume",
+                "count": 3
+            }
+        ]
+    },
+    "Other:notification": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Light:switch on",
+                "count": 6
+            },
+            {
+                "next_action": "Other:notification",
+                "count": 6
+            },
+            {
+                "next_action": "Other:switch off",
+                "count": 6
+            },
+            {
+                "next_action": "Other:robotCleanerTurboMode setRobotCleanerTurboMode",
+                "count": 5
+            },
+            {
+                "next_action": "AirPurifier:notification",
+                "count": 5
+            }
+        ]
+    },
+    "Other:robotCleanerTurboMode setRobotCleanerTurboMode": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Other:robotCleanerTurboMode setRobotCleanerTurboMode",
+                "count": 32
+            },
+            {
+                "next_action": "Other:airConditionerFanMode setFanMode",
+                "count": 10
+            },
+            {
+                "next_action": "Other:notification",
+                "count": 8
+            },
+            {
+                "next_action": "Television:audioMute unmute",
+                "count": 4
+            }
+        ]
+    },
+    "Other:samsungvd.mediaInputSource setInputSource": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:volumeDown",
+                "count": 1
+            }
+        ]
+    },
+    "Other:switch off": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Other:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "None:location",
+                "count": 8
+            },
+            {
+                "next_action": "Other:switch on",
+                "count": 6
+            },
+            {
+                "next_action": "Light:switch on",
+                "count": 5
+            },
+            {
+                "next_action": "Other:notification",
+                "count": 4
+            },
+            {
+                "next_action": "Blind:switch on",
+                "count": 1
+            }
+        ]
+    },
+    "Other:thermostatCoolingSetpoint setCoolingSetpoint": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Light:setColor",
+                "count": 3
+            },
+            {
+                "next_action": "Other:notification",
+                "count": 2
+            }
+        ]
+    },
+    "Projector:custom.soundmode setSoundMode": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Projector:custom.soundmode setSoundMode",
+                "count": 6
+            },
+            {
+                "next_action": "Washer:washerOperatingState setMachineState run",
+                "count": 3
+            }
+        ]
+    },
+    "Refrigerator:notification": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Refrigerator:notification",
+                "count": 3
+            },
+            {
+                "next_action": "Other:notification",
+                "count": 2
+            }
+        ]
+    },
+    "Refrigerator:samsungce.powerCool activate": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Dryer:dryerOperatingState setMachineState run",
+                "count": 47
+            },
+            {
+                "next_action": "Refrigerator:samsungce.powerCool activate",
+                "count": 22
+            },
+            {
+                "next_action": "Light:setColor",
+                "count": 14
+            },
+            {
+                "next_action": "Light:setLevel",
+                "count": 5
+            },
+            {
+                "next_action": "Refrigerator:samsungce.powerCool deactivate",
+                "count": 3
+            }
+        ]
+    },
+    "Refrigerator:samsungce.powerCool deactivate": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Dryer:dryerOperatingState setMachineState run",
+                "count": 5
+            },
+            {
+                "next_action": "Refrigerator:samsungce.powerCool deactivate",
+                "count": 3
+            }
+        ]
+    },
+    "Refrigerator:switch off": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Refrigerator:switch on": {
+        "message": "It is usually not followed by the next action."
+    },
+    "RemoteController:control": {
+        "message": "It is usually not followed by the next action."
+    },
+    "RemoteController:switch on": {
+        "message": "It is usually not followed by the next action."
+    },
+    "SmartLock:alarm off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Light:switch on",
+                "count": 2
+            }
+        ]
+    },
+    "SmartLock:lock lock": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "GarageDoor:doorControl open",
+                "count": 17
+            },
+            {
+                "next_action": "SmartLock:lock lock",
+                "count": 2
+            }
+        ]
+    },
+    "SmartPlug:notification": {
+        "message": "It is usually not followed by the next action."
+    },
+    "SmartPlug:setting": {
+        "message": "It is usually not followed by the next action."
+    },
+    "Switch:switch off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "SmartLock:lock lock",
+                "count": 5
+            }
+        ]
+    },
+    "Television:audioMute mute": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:audioMute unmute",
+                "count": 7
+            }
+        ]
+    },
+    "Television:audioMute unmute": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:setChannel",
+                "count": 15
+            },
+            {
+                "next_action": "Television:audioMute unmute",
+                "count": 15
+            },
+            {
+                "next_action": "Television:audioMute mute",
+                "count": 7
+            },
+            {
+                "next_action": "NetworkAudio:audioMute mute",
+                "count": 3
+            },
+            {
+                "next_action": "Television:setInputSource",
+                "count": 2
+            }
+        ]
+    },
+    "Television:setAmbientOn": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:setAmbientOn",
+                "count": 4
+            }
+        ]
+    },
+    "Television:setChannel": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:setChannel",
+                "count": 661
+            },
+            {
+                "next_action": "Light:switch on",
+                "count": 95
+            },
+            {
+                "next_action": "Television:volumeDown",
+                "count": 71
+            },
+            {
+                "next_action": "Television:switch on",
+                "count": 35
+            },
+            {
+                "next_action": "Television:audioMute mute",
+                "count": 2
+            }
+        ]
+    },
+    "Television:setInputSource": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:setInputSource",
+                "count": 5
+            },
+            {
+                "next_action": "Television:setChannel",
+                "count": 3
+            }
+        ]
+    },
+    "Television:setPictureMode": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:volumeDown",
+                "count": 5
+            }
+        ]
+    },
+    "Television:switch off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Heater:switch off",
+                "count": 1
+            }
+        ]
+    },
+    "Television:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:setChannel",
+                "count": 16
+            },
+            {
+                "next_action": "Light:switch on",
+                "count": 5
+            },
+            {
+                "next_action": "Television:switch on",
+                "count": 3
+            },
+            {
+                "next_action": "Television:volumeDown",
+                "count": 2
+            }
+        ]
+    },
+    "Television:volumeDown": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Television:volumeDown",
+                "count": 119
+            },
+            {
+                "next_action": "Television:setChannel",
+                "count": 42
+            },
+            {
+                "next_action": "Television:audioMute unmute",
+                "count": 9
+            },
+            {
+                "next_action": "Light:setLevel",
+                "count": 7
+            },
+            {
+                "next_action": "Light:switch on",
+                "count": 4
+            }
+        ]
+    },
+    "Heater:switch off": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Heater:switch on",
+                "count": 26
+            },
+            {
+                "next_action": "Light:setColor",
+                "count": 3
+            },
+            {
+                "next_action": "Refrigerator:samsungce.powerCool activate",
+                "count": 1
+            }
+        ]
+    },
+    "Heater:switch on": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Heater:switch off",
+                "count": 32
+            },
+            {
+                "next_action": "Dryer:dryerOperatingState setMachineState run",
+                "count": 1
+            }
+        ]
+    },
+    "Washer:washerOperatingState setMachineState run": {
+        "message": "The most common action following it",
+        "transitions": [
+            {
+                "next_action": "Projector:custom.soundmode setSoundMode",
+                "count": 6
+            },
+            {
+                "next_action": "Light:switch on",
+                "count": 2
+            },
+            {
+                "next_action": "Washer:washerOperatingState setMachineState run",
+                "count": 1
+            }
+        ]
+    }
+}

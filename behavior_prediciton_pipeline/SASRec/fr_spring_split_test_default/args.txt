@@ -1,0 +1,14 @@
+batch_size,8
+dataset,fr_spring_split_test
+device,cuda
+dropout_rate,0.2
+hidden_units,50
+inference_only,True
+l2_emb,0.0
+lr,0.001
+maxlen,200
+num_blocks,2
+num_epochs,500
+num_heads,1
+state_dict_path,fr_spring_generation_SPPC_th=0.918_gpt-4o_seq_default/SASRec.epoch=500.lr=0.001.layer=2.head=1.hidden=50.maxlen=200.pth
+train_dir,default

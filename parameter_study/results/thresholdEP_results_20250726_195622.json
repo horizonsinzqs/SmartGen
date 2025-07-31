@@ -1,0 +1,101 @@
+[
+  {
+    "dataset": "fr",
+    "threshold": "0.918",
+    "task1": "anomaly_detection",
+    "recall": 1.0,
+    "precision": 0.6848920863309352,
+    "F1 score": 0.8129803586678053,
+    "task2": "behavior_prediction",
+    "HR@10": 0.7087276550998949,
+    "NDCG@10": 0.35545230430170005
+  },
+  {
+    "dataset": "fr",
+    "threshold": "0.919",
+    "task1": "anomaly_detection",
+    "recall": 1.0,
+    "precision": 0.8088360237892949,
+    "F1 score": 0.8943165805542509,
+    "task2": "behavior_prediction",
+    "HR@10": 0.7476340694006309,
+    "NDCG@10": 0.3641642772918346
+  },
+  {
+    "dataset": "fr",
+    "threshold": "0.92",
+    "task1": "anomaly_detection",
+    "recall": 1.0,
+    "precision": 0.9416419386745796,
+    "F1 score": 0.9699439633214467,
+    "task2": "behavior_prediction",
+    "HR@10": 0.7718191377497371,
+    "NDCG@10": 0.49699586794853245
+  },
+  {
+    "dataset": "sp",
+    "threshold": "0.918",
+    "task1": "anomaly_detection",
+    "recall": 0.7813599062133646,
+    "precision": 0.9074200136147039,
+    "F1 score": 0.8396850393700788,
+    "task2": "behavior_prediction",
+    "HR@10": 0.7407624633431085,
+    "NDCG@10": 0.5413946632980023
+  },
+  {
+    "dataset": "sp",
+    "threshold": "0.919",
+    "task1": "anomaly_detection",
+    "recall": 1.0,
+    "precision": 0.719831223628692,
+    "F1 score": 0.8370951913640824,
+    "task2": "behavior_prediction",
+    "HR@10": 0.7677419354838709,
+    "NDCG@10": 0.4278488242082785
+  },
+  {
+    "dataset": "sp",
+    "threshold": "0.92",
+    "task1": "anomaly_detection",
+    "recall": 1.0,
+    "precision": 0.8277535177098496,
+    "F1 score": 0.9057605521635254,
+    "task2": "behavior_prediction",
+    "HR@10": 0.7900293255131965,
+    "NDCG@10": 0.6058781084429817
+  },
+  {
+    "dataset": "us",
+    "threshold": "0.918",
+    "task1": "anomaly_detection",
+    "recall": 0.7258110824002297,
+    "precision": 0.6063804269609019,
+    "F1 score": 0.6607422895974909,
+    "task2": "behavior_prediction",
+    "HR@10": 0.9425617461229179,
+    "NDCG@10": 0.5815515076297009
+  },
+  {
+    "dataset": "us",
+    "threshold": "0.919",
+    "task1": "anomaly_detection",
+    "recall": 1.0,
+    "precision": 0.6918951132300357,
+    "F1 score": 0.8178936245156745,
+    "task2": "behavior_prediction",
+    "HR@10": 0.9520390580126364,
+    "NDCG@10": 0.7092059027063828
+  },
+  {
+    "dataset": "us",
+    "threshold": "0.92",
+    "task1": "anomaly_detection",
+    "recall": 1.0,
+    "precision": 0.7020761943156621,
+    "F1 score": 0.824964471814306,
+    "task2": "behavior_prediction",
+    "HR@10": 0.9276278001148766,
+    "NDCG@10": 0.7313947560442866
+  }
+]

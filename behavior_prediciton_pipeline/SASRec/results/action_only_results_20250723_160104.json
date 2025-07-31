@@ -1,0 +1,65 @@
+[
+  {
+    "dataset": "fr",
+    "environment": "spring",
+    "model": "SASRec_fixed",
+    "HR@10": 0.9540229885057471,
+    "NDCG@10": 0.5636128050869728
+  },
+  {
+    "dataset": "fr",
+    "environment": "night",
+    "model": "SASRec_fixed",
+    "HR@10": 0.7833859095688749,
+    "NDCG@10": 0.517360063877325
+  },
+  {
+    "dataset": "fr",
+    "environment": "multiple",
+    "model": "SASRec_fixed",
+    "HR@10": 0.9213483146067416,
+    "NDCG@10": 0.6570623407147194
+  },
+  {
+    "dataset": "sp",
+    "environment": "spring",
+    "model": "SASRec_fixed",
+    "HR@10": 0.9325997248968363,
+    "NDCG@10": 0.7331742202844099
+  },
+  {
+    "dataset": "sp",
+    "environment": "night",
+    "model": "SASRec_fixed",
+    "HR@10": 0.8956011730205279,
+    "NDCG@10": 0.6178158975659229
+  },
+  {
+    "dataset": "sp",
+    "environment": "multiple",
+    "model": "SASRec_fixed",
+    "HR@10": 0.8152866242038217,
+    "NDCG@10": 0.5613668888730923
+  },
+  {
+    "dataset": "us",
+    "environment": "spring",
+    "model": "SASRec_fixed",
+    "HR@10": 0.9134328358208955,
+    "NDCG@10": 0.7072570097668235
+  },
+  {
+    "dataset": "us",
+    "environment": "night",
+    "model": "SASRec_fixed",
+    "HR@10": 0.9503159103963239,
+    "NDCG@10": 0.7238870780775412
+  },
+  {
+    "dataset": "us",
+    "environment": "multiple",
+    "model": "SASRec_fixed",
+    "HR@10": 0.7973815461346634,
+    "NDCG@10": 0.5616021077169444
+  }
+]
