@@ -6,3 +6,17 @@ This document contains part of the source code for the paper *"SmartGen: Synthes
 2. The **SmartGen** folder contains the implementations of the four functional modules as well as the data synthesis system. The other six folders correspond to various experimental setups.
 3. Each folder includes a `main.py` file, which serves as the entry point for running the corresponding experiment. The CSV files in the `results` directory contain the recorded outcomes of these experiments.
 4. This code does **not** provide APIs for large language models, but it **does** open-source various types of synthesized data and synthesis logs.
+
+Recommended compression thresholds in SmartGen:
+| Dataset | Original Context | New Context | Compression Threshold |
+| ------- | ---------------- | ----------- | --------------------- |
+|         | winter           | spring      | 0.918                 |
+| FR      | daytime          | night       | 0.92                  |
+|         | single           | multiple    | 0.915                 |
+|         | winter           | spring      | 0.915                 |
+| SP      | daytime          | night       | 0.917                 |
+|         | single           | multiple    | 0.915                 |
+|         | winter           | spring      | 0.905                 |
+| US      | daytime          | night       | 0.919                 |
+|         | single           | multiple    | 0.913                 |
+
