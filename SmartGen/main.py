@@ -27,7 +27,7 @@ def get_args_parser():
     parser = argparse.ArgumentParser('LLM generation', add_help=False)
     parser.add_argument('--model', default='gpt-4o', type=str,
                         help='The used LLM: Llama_405B/70B/gpt-4o/deepseek-v3')
-    parser.add_argument('--dataset', default='us', type=str,
+    parser.add_argument('--dataset', default='fr', type=str,
                         help='Name of dataset to train: an/fr/us/sp')
     parser.add_argument('--ori_env', default='winter', type=str,
                         help='The original home environment: winter/daytime')
@@ -35,7 +35,7 @@ def get_args_parser():
                         help='The new home environment: spring/night')
     parser.add_argument('--method', default='SPPC', type=str,
                         help='The compression method: SPPC/similarity/instance')
-    parser.add_argument('--threshold', default=0.905, type=float,
+    parser.add_argument('--threshold', default=0.918, type=float,
                         help="The compression threshold")
     parser.add_argument('--need_test', default=True, type=bool,
                         help='The experimental setup: True/False')
