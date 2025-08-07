@@ -8,15 +8,16 @@ This document contains part of the source code for the paper *"SmartGen: Synthes
 4. This code does **not** provide APIs for large language models, but it **does** open-source various types of synthesized data and synthesis logs.
 
 Recommended compression thresholds in SmartGen:
-| Dataset | Original Context | New Context | Compression Threshold |
-| ------- | ---------------- | ----------- | --------------------- |
-|         | winter           | spring      | 0.918                 |
-| FR      | daytime          | night       | 0.92                  |
-|         | single           | multiple    | 0.915                 |
-|         | winter           | spring      | 0.915                 |
-| SP      | daytime          | night       | 0.917                 |
-|         | single           | multiple    | 0.915                 |
-|         | winter           | spring      | 0.905                 |
-| US      | daytime          | night       | 0.919                 |
-|         | single           | multiple    | 0.913                 |
+| Dataset | Original Context | New Context | Compression Threshold | Anomaly Detection Percentage |
+| ------- | ---------------- | ----------- | --------------------- | ---------------------------- |
+|         | winter           | spring      | 0.918                 | 95.5                         |
+| FR      | daytime          | night       | 0.92                  | 95                           |
+|         | single           | multiple    | 0.915                 | 99                           |
+|         | winter           | spring      | 0.915                 | 95                           |
+| SP      | daytime          | night       | 0.917                 | 95                           |
+|         | single           | multiple    | 0.915                 | 99                           |
+|         | winter           | spring      | 0.905                 | 95                           |
+| US      | daytime          | night       | 0.919                 | 93                           |
+|         | single           | multiple    | 0.913                 | 99                           |
+
 
