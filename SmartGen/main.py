@@ -37,6 +37,8 @@ def get_args_parser():
                         help='The compression method: SPPC/similarity/instance')
     parser.add_argument('--threshold', default=0.918, type=float,
                         help="The compression threshold")
+    parser.add_argument('--percentage', default=95.5, type=float,
+                        help='The anomaly detection threshold percentage')
     parser.add_argument('--need_test', default=True, type=bool,
                         help='The experimental setup: True/False')
     parser.add_argument('--need_generate', default=False, type=bool,
@@ -157,9 +159,10 @@ if __name__ == "__main__":
 
 
     if args.need_test:
-        Anomaly_detection(args.dataset, args.new_env, args.threshold, args.method, args.model)
+        Anomaly_detection(args.dataset, args.new_env, args.threshold, args.method, args.model, args.percentage)
         # SASRec_behavior_prediction(args.dataset, args.new_env, args.threshold, args.method, args.model, need='train')
         # SASRec_behavior_prediction(args.dataset, args.new_env, args.threshold, args.method, args.model, need='test')
+
 
 
 
