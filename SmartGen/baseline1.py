@@ -248,7 +248,7 @@ def evaluate(new_env, vocab_size, test_file1, test_file3, model_name, seq_len, t
     return TP, TN, FP, FN, FPR, FNR, recall, precision, accuracy, f1_score
 
 
-def Anomaly_detection(dataset, new_env, thres, method, model):
+def Anomaly_detection(dataset, new_env, thres, method, model, percentage):
     model_name = f"check_model/best_{dataset}_{model}_{method}.pth"
     vocab_size = vocab_dic[dataset]
     epochs = 15
@@ -271,7 +271,7 @@ def Anomaly_detection(dataset, new_env, thres, method, model):
     test_file3 = f"IoT_data/{dataset}/{new_env}/split_test.pkl"
     setup_seed(2024)
     train(new_env, vocab_size, epochs, train_file, model_name, seq_len)
-    threshold = find_threshold(new_env, vocab_size, vld_file, model_name, seq_len, percentage=95)
+    threshold = find_threshold(new_env, vocab_size, vld_file, model_name, seq_len, percentage=percentage)
     TP, TN, FP, FN, FPR, FNR, recall, precision, accuracy, f1_score = evaluate(new_env, vocab_size, test_file1,
                                                                                test_file3, model_name, seq_len,
                                                                                threshold=threshold)
